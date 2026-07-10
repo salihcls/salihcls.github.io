@@ -78,7 +78,7 @@ export function Hero() {
             <div className="absolute -inset-3 rounded-2xl bg-gradient-to-br from-primary/40 to-transparent blur-2xl"></div>
             <div className="relative overflow-hidden rounded-2xl border border-border bg-card">
               <img
-                src="/salih-profil.jpeg"
+                src="/images/salih-profil.jpeg"
                 alt="Salih CLS Profil"
                 className="h-auto w-full object-cover"
               />
