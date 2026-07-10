@@ -1,7 +1,6 @@
-import Image from 'next/image'
 import { ArrowDown, MapPin } from 'lucide-react'
 import { GithubIcon, LinkedinIcon } from '@/components/brand-icons'
-import Image from 'next/image'
+
 export function Hero() {
   return (
     <section
@@ -30,7 +29,7 @@ export function Hero() {
           </p>
 
           <h1 className="text-balance text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
-              Hi, I&apos;m Salih CLS
+            Hi, I&apos;m Salih CLS
           </h1>
 
           <p className="mt-4 font-mono text-sm text-primary sm:text-base cursor-blink">
@@ -76,8 +75,8 @@ export function Hero() {
         {/* Portrait */}
         <div className="reveal is-visible relative mx-auto w-full max-w-xs md:max-w-none">
           <div className="animate-float relative">
-              <div className="absolute -inset-3 rounded-2xl bg-gradient-to-br from-primary/40 to-transparent blur-2xl"></div>
-             <div className="relative overflow-hidden rounded-2xl border border-border bg-card">
+            <div className="absolute -inset-3 rounded-2xl bg-gradient-to-br from-primary/40 to-transparent blur-2xl"></div>
+            <div className="relative overflow-hidden rounded-2xl border border-border bg-card">
               <img
                 src="/salih-profil.jpeg"
                 alt="Salih CLS Profil"
@@ -91,6 +90,8 @@ export function Hero() {
             </div>
           </div>
         </div>
+      </div>
+
       <a
         href="#about"
         className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 items-center gap-2 font-mono text-xs text-muted-foreground transition-colors hover:text-foreground sm:inline-flex"
