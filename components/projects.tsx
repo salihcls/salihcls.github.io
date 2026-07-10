@@ -85,7 +85,7 @@ export function Projects() {
                   </div>
                   <div className="flex items-center gap-3">
                     <a
-                      href="https://github.com/salihcetin"
+                      href="https://github.com/salihcls"
                       target="_blank"
                       rel="noopener noreferrer"
                       aria-label={`${project.title} on GitHub`}

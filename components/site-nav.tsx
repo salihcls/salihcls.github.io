@@ -37,7 +37,7 @@ export function SiteNav() {
         <a href="#top" className="flex items-center gap-2 font-mono text-sm font-semibold tracking-tight">
           <Shield className="size-5 text-primary" aria-hidden="true" />
           <span>
-            salih<span className="text-primary">.cetin</span>
+            salih<span className="text-primary">.cls</span>
           </span>
         </a>
 
