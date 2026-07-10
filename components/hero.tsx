@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { ArrowDown, MapPin } from 'lucide-react'
 import { GithubIcon, LinkedinIcon } from '@/components/brand-icons'
-
+import Image from 'next/image'
 export function Hero() {
   return (
     <section
@@ -76,16 +76,14 @@ export function Hero() {
         {/* Portrait */}
         <div className="reveal is-visible relative mx-auto w-full max-w-xs md:max-w-none">
           <div className="animate-float relative">
-            <div className="absolute -inset-3 rounded-2xl bg-gradient-to-br from-primary/40 to-accent/20 opacity-60 blur-xl" aria-hidden="true" />
-            <div className="relative overflow-hidden rounded-2xl border border-border bg-card">
-              <Image
-                src="/images/salih-portrait.png"
-                alt="Portrait of Salih CLS"
-                width={640}
-                height={800}
-                priority
-                className="h-auto w-full object-cover"
-              />
+              <div className="absolute -inset-3 rounded-2xl bg-gradient-to-br from-primary/40 to-transparent blur-2xl"></div>
+              <div className="relative overflow-hidden rounded-2xl border border-border bg-card">
+                <img
+            src="/images/salih-profil.jpeg"
+            alt="Muhammet Salih Çalışıcı"
+            className="h-auto w-full object-cover"
+          />
+        </div>
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
               <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between rounded-md border border-border bg-background/70 px-3 py-2 font-mono text-[11px] backdrop-blur">
                 <span className="text-muted-foreground">status:</span>
