@@ -77,14 +77,13 @@ export function Hero() {
         <div className="reveal is-visible relative mx-auto w-full max-w-xs md:max-w-none">
           <div className="animate-float relative">
               <div className="absolute -inset-3 rounded-2xl bg-gradient-to-br from-primary/40 to-transparent blur-2xl"></div>
-              <div className="relative overflow-hidden rounded-2xl border border-border bg-card">
-                <img
-            src="/images/salih-profil.jpeg"
-            alt="Muhammet Salih Çalışıcı"
-            className="h-auto w-full object-cover"
-          />
-        </div>
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
+             <div className="relative overflow-hidden rounded-2xl border border-border bg-card">
+              <img
+                src="/salih-profil.jpeg"
+                alt="Salih CLS Profil"
+                className="h-auto w-full object-cover"
+              />
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent"></div>
               <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between rounded-md border border-border bg-background/70 px-3 py-2 font-mono text-[11px] backdrop-blur">
                 <span className="text-muted-foreground">status:</span>
                 <span className="text-accent">monitoring_threats</span>
@@ -92,8 +91,6 @@ export function Hero() {
             </div>
           </div>
         </div>
-      </div>
-
       <a
         href="#about"
         className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 items-center gap-2 font-mono text-xs text-muted-foreground transition-colors hover:text-foreground sm:inline-flex"
